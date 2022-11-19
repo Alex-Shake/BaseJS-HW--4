@@ -45,4 +45,22 @@ function func5(num1, num2) {
     } else {console.log(false);}
 }
 
-func5(1, 1)
+function func6(num1, num2) {
+    +num1 + +num2 >= 10 ? console.log(true) : console.log(false);
+}
+
+function func7(num) {
+    console.log(+num < 0);
+}
+
+function isNumberInRange(num) {
+    if (0 < num) {
+        if (num < 10) {
+            console.log(true);
+        } else {
+                console.log(false)
+                }
+    } else {console.log(false);}
+}
+
+function
