@@ -61,6 +61,4 @@ function isNumberInRange(num) {
                 console.log(false)
                 }
     } else {console.log(false);}
-}
-
-function
+};
